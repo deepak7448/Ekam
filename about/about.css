@@ -347,6 +347,12 @@ color: #6abe45;
 }
 }
 
+@media only screen and  (max-width: 375px) {
+  .copyright {
+    font-size: 12px;
+  }
+}
+
 @media only screen and (min-width:280px) and (max-width:767px) {
   .navbar-nav{
     margin-right: auto;

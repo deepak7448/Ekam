@@ -320,9 +320,9 @@ color: #6abe45;
 }
 
 @media only screen and (min-width: 418px) and (max-width: 991px) {
-    .nav-item {
-      margin: 0 auto;
-    } }
+.nav-item {
+  margin: 0 auto;
+} }
 @media only screen and (max-width: 575px) {
 .activitie{
   margin-left: 30px;
@@ -332,6 +332,12 @@ color: #6abe45;
   top: 47%;
 }   
 }
+@media only screen and  (max-width: 375px) {
+  .copyright {
+    font-size: 12px;
+  }
+}
+
 @media only screen and (min-width:280px) and (max-width:767px) {
   .navbar-nav{
     margin-right: auto;
