@@ -203,9 +203,3 @@ button i{
 }
 }
 
-@media only screen and  (max-width: 460px) {
-  .copyright {
-    font-size: 14px;
-} 
-}
-
