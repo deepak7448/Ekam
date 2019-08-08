@@ -8,7 +8,7 @@ body {
  
 }
 .banner_area {
-    background: url(../img/contact.jpg) no-repeat scroll center center;
+    background: url(../img/room-logo.jpg) no-repeat scroll center center;
     background-size: cover;
     position: relative;
     z-index: 2;
@@ -60,99 +60,6 @@ body {
 .breadcrumb li a:hover{
     color: #6abe45;
 }
-.contact-us{
-  background-color: #e9ecef;
-}
-.page{
-  padding: 35px;
-  padding-top: 75px;
-  padding-bottom: 80px;
-}
-
-.title{
-  font-size: 35px;
-  font-family: 'Pacifico', cursive;
-}
-.title-info{
-  padding-left: 20px;
-}
-.form{
-font-size: 17px;
-}
-.invalid-feedback {
-  top: 100%;
-  z-index: 5;
-  font-weight: bold;
-  max-width: 100%;
-  padding: .25rem .5rem;
-  margin-top: .1rem;
-  font-size: .875rem;
-  line-height: 1.5;
- color: rgba(220,53,69);
-
-}
-.form:focus {
-  box-shadow: none;
-  background-color: rgb(219, 219, 219);
-}
-textarea.textarea {
-  height: 30vh;
-}
-.btn:focus {
-  box-shadow: 0 0 0 0.1rem rgb(106, 190, 69.5);
-}
-.button .btn:hover{
-  color: rgb(106, 190, 69);
-  background-color:  #e9ecef;
-}
-button i{
-  padding-right: 10px;
-}
-.info{
-  padding: 0 25px;
-  list-style: none;
-}
-.info h5{
-  font-size: 16px;
-  text-transform: uppercase;
-  padding: 0 0 10px;
-  font-weight: bold;
-  
-}
-.info li{
-  font-weight: bold;
-}
-.info i{
-  font-size: 20px;
-  padding: 0px 0 20px 0px;
-  text-decoration: none;
-  list-style: none;
-  padding-right: 17px;
-  color: #6abe45;
-}
-.info i span{
-    padding: 0 18px;
-    font-size: 20px;
-}
-.contact-links a{
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  padding: 7px;
-  margin: 5px;
-  background-color: #6abe45;
-  border-color: #6abe45;
-  color: #fff;
-  border: 1px solid  #e9ecef;
-  text-align: center;
-  transition: all 0.2s ease-in-out;
-}
-.insta:hover,.fb:hover,.google:hover,.linked:hover{
-  transition: all 0.2s ease-in-out;
-  background-color: #e9ecef;
-  border-color: #6abe45;
-  color: #6abe45;
-}
 
 #scrollUp {
   bottom: 15px;
@@ -182,30 +89,3 @@ button i{
   text-decoration: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5);
 }
-
-@media only screen and (min-width: 418px) and (max-width: 991px) {
-  .nav-item {
-    margin: 0 auto;
-  } 
-  .our-resort {
-    margin: 0;
-}
-}
-@media only screen and (max-width: 768px) {
-  .title-info {
-    padding-left: 0;
-}
-.info {
-  padding: 0px;
-}
-.contact-info{
-  padding-top: 45px;
-}
-}
-
-@media only screen and  (max-width: 460px) {
-  .copyright {
-    font-size: 14px;
-} 
-}
-

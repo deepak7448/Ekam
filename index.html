@@ -4,10 +4,13 @@
 <title>Welcome To Ekm</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <link rel="icon" href="img/logo.png" type="image/icon" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"/>
 <link rel="stylesheet" href="index/index.css" />
+<link rel="stylesheet" href="footer/footer.css">
+<link rel="stylesheet" href="navbar/navbar.css">
 </head>
 <body>
 <section id="nav-bar">
@@ -23,7 +26,7 @@
 <a class="nav-link" href="#">Service</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Rooms</a>
+<a class="nav-link" href="room/room.html">Rooms</a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="facilities/Facilities.html">Facilities</a>
@@ -152,7 +155,7 @@
 </div>
 <div data-aos="zoom-in-left"  class="jumbotron">
 <div class="text-center">
-<h2 class="room">Our Hotel Rooms</h2>
+<h2 class="room text-uppercase">Our Hotel Rooms</h2>
 <hr style="background: darkcyan;width:150px;height: 1px;">
 <br>
 </div>
@@ -209,7 +212,22 @@
 <i class="fas fa-tv"></i>
 </div>
 <div class="text-center">
-<a href="#" class="btn btn-info">View More</a>
+<button type="button" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-xl">view more</button>
+<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-xl" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+    ...
+</div>
+</div>
+</div>
+</div>
 <a href="#" class="btn btn-info">Book Now</a>
 </div>
 </div>
@@ -219,7 +237,7 @@
 </div>
 <br>
 <div class="text-center">
-<a href="#" class="btn btn-view">See All Room</a>
+<a href="room/room.html" class="btn btn-view">See All Room</a>
 </div>
 </div>  
 <div  data-aos="fade-up"class="offer">
@@ -254,7 +272,7 @@
 <div class="container ">
 <div class="text-center">
 <br>
-<h3 class="guest-review">Guest Review</h3>
+<h3 class="guest-review text-uppercase">Guest Review</h3>
 <hr style="background: darkcyan;width:120px;height: 1px;">
 <br>
 </div>
@@ -358,10 +376,10 @@ data-aos-duration="3050"class="page-foot">
 <form>
 <div class="row">
 <div class="col">
-<input type="text" class="form-control" id="first-name" placeholder="First name" required>
-<input type="text" class="form-control" id="last-name" placeholder="Last name" required>
+<input type="text" class="form-control" id="first-name" placeholder="Name" required>
+<input type="text" class="form-control" id="E-mail" placeholder="E-mail" required>
 <textarea class = "form-control" id="feedback" placeholder="Feedback" maxlength="75" required></textarea>
-<input class="btn  submit-btn" type="submit" value="Submit">
+<input class="btn submit-btn" type="submit" value="Submit">
 </div>
 </form>
 </div>
@@ -386,24 +404,23 @@ data-aos-duration="3050"class="page-foot">
 </div>
 </div>
 </div>
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/jquery.scrollUp.min.js"></script>
-<script src="index/index.js"></script>
+<script src="navbar/navbar.js"></script>
 <script>
 $(function () {
-    $.scrollUp({
-    scrollDistance: 300,
-    scrollFrom: 'top',
-    padding: 0,
-    scrollSpeed: 1200,
-    easingType: 'linear',
-    onScrollEnd: false,
-    scrollImg:true,     
-    });
+  $.scrollUp({
+  scrollDistance: 300,
+  scrollFrom: 'top',
+  padding: 0,
+  scrollSpeed: 1200,
+  easingType: 'linear',
+  onScrollEnd: false,
+  scrollImg:true,     
+  });
 });
 </script>
 </body>
