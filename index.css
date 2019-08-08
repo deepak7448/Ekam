@@ -115,7 +115,7 @@ body {
   font-size: 16px;
 }
 .offer{
-  background: linear-gradient(to right, rgba(0, 139, 139,0.81) 46%, rgba(0, 0, 0, 0.5) 100%),url("../img/home.jpg") no-repeat ;
+  background: linear-gradient(to right, rgba(0, 139, 139,0.81) 46%, rgba(0, 0, 0, 0.5) 100%),url("img/home.jpg") no-repeat ;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
