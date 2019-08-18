@@ -119,11 +119,13 @@ background-color: currentColor;
   color: #fff;
 }
 .room-body{
-  box-shadow: 0px 23px 35px rgba(4,4,4,0.18);
+  box-shadow: 0px 23px 35px rgba(4,4,4,0.5);
   background-color: #fff;
   overflow: hidden;
   backface-visibility: hidden;
+  margin-bottom: 25px;
 }
+
 .room-body img{
   transition: all 0.3s ease-in-out;
   overflow: hidden;
@@ -246,15 +248,19 @@ background-color: #000;
 .review{
   background-color: #000;
 }
-.user-review{
+.user-review {
   padding: 20px;
-  background: white;
-  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+  background: rgb(21,25,29);
+  /*box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);*/
+  margin-bottom: 25px;
 }
 
 .guest-review{
   font-size: 40px;
   color: #fff;
+}
+.view p{
+  color: #808080;
 }
 .user{
   display: flex;
@@ -265,6 +271,7 @@ background-color: #000;
   padding: 0;
   font-size: 18px;
   font-weight: 300;
+  color: #fff;
 }
 .name-text{
   margin-left: 20px;
