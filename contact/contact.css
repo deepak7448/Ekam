@@ -61,23 +61,27 @@ body {
     color: #6abe45;
 }
 .contact-us{
-  background-color: #e9ecef;
+  background-color: #000;
 }
 .page{
   padding: 35px;
   padding-top: 75px;
   padding-bottom: 80px;
 }
-
 .title{
   font-size: 35px;
   font-family: 'Pacifico', cursive;
+  color: #fff;
 }
 .title-info{
   padding-left: 20px;
 }
 .form{
 font-size: 17px;
+border-radius: 0px;
+background-color: #3a3939;
+color: #fff;
+border:none;
 }
 .invalid-feedback {
   top: 100%;
@@ -93,7 +97,8 @@ font-size: 17px;
 }
 .form:focus {
   box-shadow: none;
-  background-color: rgb(219, 219, 219);
+  background-color:#3a3939;
+  color: #fff;
 }
 textarea.textarea {
   height: 30vh;
@@ -102,8 +107,8 @@ textarea.textarea {
   box-shadow: 0 0 0 0.1rem rgb(106, 190, 69.5);
 }
 .button .btn:hover{
-  color: rgb(106, 190, 69);
-  background-color:  #e9ecef;
+  color:#fff;
+  background-color:#000;
 }
 button i{
   padding-right: 10px;
@@ -117,10 +122,11 @@ button i{
   text-transform: uppercase;
   padding: 0 0 10px;
   font-weight: bold;
+  color: #fff;
   
 }
 .info li{
-  font-weight: bold;
+  color: #fff;
 }
 .info i{
   font-size: 20px;
@@ -142,14 +148,14 @@ button i{
   margin: 5px;
   background-color: #6abe45;
   border-color: #6abe45;
+  border:1px solid #6abe45;
   color: #fff;
-  border: 1px solid  #e9ecef;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
 .insta:hover,.fb:hover,.google:hover,.linked:hover{
   transition: all 0.2s ease-in-out;
-  background-color: #e9ecef;
+  background-color: #000;
   border-color: #6abe45;
   color: #6abe45;
 }

@@ -66,7 +66,7 @@ color: #6abe45;
   margin-right: 45px;
 }
 .about-us{
-  background-color: #e9ecef;
+  background-color: #000;
 }
 .about-right img{
   width: 100%;
@@ -78,12 +78,13 @@ color: #6abe45;
   margin-top: 0px;
   margin-bottom: 0px;
   letter-spacing: -1px;
-  color: #2a2b33;
+  color: #fff;
 }
 .about-head h2 span{
 color: #6abe45;
 }
 .about-contain h4{
+  color: #808080;
   font-size: 24px;
   padding-top: 20px;
 }

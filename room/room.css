@@ -60,6 +60,13 @@ body {
 .breadcrumb li a:hover{
     color: #6abe45;
 }
+.rooms{
+padding: 4rem 2rem;
+background-color: #f6f6f6;
+}
+.room-heading h3{
+font-weight: 600;
+}
 
 #scrollUp {
   bottom: 15px;

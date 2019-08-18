@@ -33,6 +33,9 @@ body {
   color: #fff;
   text-align: center;
 }
+.btn:focus{
+  box-shadow:none;
+}
 .btn-outline-light{
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
@@ -43,33 +46,39 @@ body {
   color: beige;
   border-color:#6abe45;
 }
+
 .btn-info{
   background-color: transparent;
-  color: black;
-  border-color:black;
-  border-radius: 4px; 
+  color: #fff;
+  border-color:#6abe45;
+  border-radius: 2px; 
   margin: 13px;
   transition: all 0.2s ease-in-out;
 }
 .btn-info:hover{
-  background-color: #008b8b;
-  border-color: #008b8b;
+  background-color: #6abe45;
+  border-color:#6abe45;
 }
 .btn-view{
-  background-color: #008b8b;
+  background-color:#1fa023;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 2px;
   transition: all 0.2s ease-in-out;
 }
 .btn-view:hover{
   color: #fff;
 }
+.intro{
+background-color: currentColor;
+}
 .jumbotron {
   padding: 2.5rem 2rem;
   border-radius: 0px;
+  background-color: currentColor;
+  margin-bottom: 1.9rem;
 }
 .fas{
-  color:  rgb(0, 139, 139);
+  color: #6abe45;
   margin: 12px;
   font-size: 25px;
 }
@@ -86,13 +95,14 @@ body {
   font-size: 34px;
   font-weight: bold;
   letter-spacing: 0.9px;
-  color: #6abe45;
+  color: rgb(106, 190, 69);
   padding-bottom: 15px;
 }
 .intro h4{
   font-size: 18px;
   letter-spacing: 0.9px;
   padding-bottom: 15px;
+  color: #fff;
 }
 .intro p{
   letter-spacing: 0.225px;
@@ -101,21 +111,44 @@ body {
   color: gray;
 }
 .introduction{
-  max-width: 1075px;
+  margin-right: 22px;
+  margin-left: 22px;
+  padding: 3rem 0rem;
 }
-.card{
-  box-shadow: 0px 5px 20px;
+.room{
+  color: #fff;
 }
-.card-body h5{
+.room-body{
+  box-shadow: 0px 23px 35px rgba(4,4,4,0.18);
+  background-color: #fff;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+.room-body img{
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  backface-visibility: hidden;
+  
+}
+.room-body img:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+.body{
+  padding: 15px;
+  background-color: #000;
+}
+.room-title{
+  color: #fff;
+  font-size: 25px;
   text-transform: uppercase;
-  color: darkcyan;
-  font-size: 23px;
+  letter-spacing: .4px;
+  font-weight: bold;
 }
-.card-body p{
-  font-size: 16px;
-}
+
 .offer{
-  background: linear-gradient(to right, rgba(0, 139, 139,0.81) 46%, rgba(0, 0, 0, 0.5) 100%),url("img/home.jpg") no-repeat ;
+  background: linear-gradient(to right, rgba(21,25,29,0.81) 46%, rgba(0, 0, 0, 0.5) 100%),url("img/home.jpg") no-repeat ;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -142,9 +175,12 @@ body {
   border-radius: 50%;
   margin: 15px;
   padding-top: 18px;
-  background-color: darkcyan;
-  transition: all 0.3s ease-in-out;
-  
+  background-color:transparent;
+  border:1px solid #fff;
+  transition: all 0.3s ease-in-out; 
+}
+.offer-head{
+  color: #fff;
 }
 .fa-offer .fas:hover{
   background-color:#6abe45;
@@ -158,6 +194,9 @@ body {
   margin: 15px;
   text-decoration: none;
 }
+.choose-hotel{
+background-color: #000;
+}
 .resot_list ul{
   list-style: none;
   margin: 0px;
@@ -166,7 +205,7 @@ body {
 .resot_list .list{
   font-size: 20px;
   font-weight: 500;
-  color: rgb(113, 117, 117);
+  color: #fff;
   /*letter-spacing: .60px;
   position: relative;
   padding-left: 35px;
@@ -177,7 +216,7 @@ body {
 }
 .resot_list .list .fa-caret-right{
   margin: 5px;
-  color: darkcyan;
+  color: #6abe45;
   padding: 13px;
 }
 .resot_list ul li a i{
@@ -191,22 +230,7 @@ body {
 .our-resort{
  margin: 28px;
 }
-.next-icon {
-  right: -28px;
-  border-radius: 2px;
-  width: 53px;
-  margin-top: 141px;
-  height: 58px;
-  background-color: #6abe45;
-}
-.prev-icon {
-  left: 28px;
-  border-radius: 2px;
-  width: 53px;
-  margin-top: 141px;
-  height: 58px;
-  background-color: #6abe45;
-}
+
 .title{
   color: #6abe45;
   padding-bottom: 20px;
@@ -214,13 +238,13 @@ body {
   font-weight: bold;
 }
 .title span{
-  color:black;
+  color:#fff;
 }
 .guest-img{
   width: 80px;
 }
 .review{
-  background-color: #f6f6f6;
+  background-color: #000;
 }
 .user-review{
   padding: 20px;
@@ -229,7 +253,8 @@ body {
 }
 
 .guest-review{
-  font-size: 50px;
+  font-size: 40px;
+  color: #fff;
 }
 .user{
   display: flex;
@@ -276,6 +301,7 @@ body {
   text-decoration: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5);
 }
+
 @media only screen and (max-width: 991px) {
   .first {
     font-size: 60px;
