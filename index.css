@@ -10,7 +10,7 @@ body {
   margin-right: 6%;
 }
 .first{
-  font-size: 80px;
+  font-size: 75px;
 }
 .second{
   font-size: 30px;
@@ -37,36 +37,42 @@ body {
   box-shadow:none;
 }
 .btn-outline-light{
-  border-radius: 10px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6abe45;
+  border-width: medium;
+  border-color: #6abe45;
 }
 .btn-outline-light:hover{
   background-color:#6abe45;
-  transition:background-color 0.4s;
+  /*transition:background-color 0.4s;*/
   color: beige;
   border-color:#6abe45;
 }
 
 .btn-info{
-  background-color: transparent;
-  color: #fff;
-  border-color:#6abe45;
-  border-radius: 2px; 
-  margin: 13px;
-  transition: all 0.2s ease-in-out;
+background-color: transparent;
+color: #fff;
+border-color:#4caf50;
+border-radius: 2px; 
+border-width: medium;
+margin: 10px;
+transition: all 0.2s ease-in-out;
 }
 .btn-info:hover{
-  background-color: #6abe45;
-  border-color:#6abe45;
+background-color: #4caf50;
+border-color:#4caf50;
+color: #fff;
 }
 .btn-view{
-  background-color:#1fa023;
-  color: #fff;
-  border-radius: 2px;
-  transition: all 0.2s ease-in-out;
+background-color:#1fa023;
+color: #fff;
+border-radius: 2px;
+transition: all 0.2s ease-in-out;
 }
 .btn-view:hover{
-  color: #fff;
+color: #fff;
 }
 .intro{
 background-color: currentColor;
@@ -74,7 +80,7 @@ background-color: currentColor;
 .jumbotron {
   padding: 2.5rem 2rem;
   border-radius: 0px;
-  background-color: currentColor;
+  background-color: #000;
   margin-bottom: 1.9rem;
 }
 .fas{
@@ -92,34 +98,41 @@ background-color: currentColor;
 }
 
 .intro h2{
-  font-size: 34px;
+  font-size: 37px;
   font-weight: bold;
   letter-spacing: 0.9px;
   color: rgb(106, 190, 69);
   padding-bottom: 15px;
 }
 .intro h4{
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.9px;
   padding-bottom: 15px;
   color: #fff;
 }
 .intro p{
-  letter-spacing: 0.225px;
+  font-size: 18px;
+  letter-spacing: 1px;
   padding-bottom: 15px;
   line-height: 26px;
   color: gray;
 }
+
 .introduction{
-  margin-right: 22px;
-  margin-left: 22px;
+  margin-right: 25px;
+  margin-left: 25px;
   padding: 3rem 0rem;
+}
+
+.facilities{
+  background-color: #000;
+  padding: 30px 0px;
 }
 .room{
   color: #fff;
 }
-.room-body{
-  box-shadow: 0px 23px 35px rgba(4,4,4,0.5);
+/*.room-body{
+  box-shadow: 0px 23px 35px rgba(24,26,29,0.9);
   background-color: #fff;
   overflow: hidden;
   backface-visibility: hidden;
@@ -139,7 +152,7 @@ background-color: currentColor;
 }
 .body{
   padding: 15px;
-  background-color: #000;
+  background-color: #212529;
 }
 .room-title{
   color: #fff;
@@ -147,7 +160,43 @@ background-color: currentColor;
   text-transform: uppercase;
   letter-spacing: .4px;
   font-weight: bold;
+}*/
+
+img{
+width: 100%;
 }
+.overflow_hidden{
+overflow: hidden
+}
+.thumb-top{
+	position: relative;
+}
+
+.title{
+text-transform: uppercase;
+}
+
+.h5{
+font-weight: 600;
+}
+
+.fas{
+color: #4caf50;
+margin: 10px;
+font-size: 22px;
+}
+.title a{
+text-decoration: none;
+transition: all 0.2s ease-in-out;
+font-weight: 600;
+}
+/*a:hover{
+color: #4caf50!important;
+}*/
+.down-line-left span {
+color: #818181;
+}
+
 
 .offer{
   background: linear-gradient(to right, rgba(21,25,29,0.81) 46%, rgba(0, 0, 0, 0.5) 100%),url("img/home.jpg") no-repeat ;
@@ -197,7 +246,7 @@ background-color: currentColor;
   text-decoration: none;
 }
 .choose-hotel{
-background-color: #000;
+background-color: #212529;
 }
 .resot_list ul{
   list-style: none;
@@ -247,6 +296,7 @@ background-color: #000;
 }
 .review{
   background-color: #000;
+  padding: 2.5rem 2rem
 }
 .user-review {
   padding: 20px;
@@ -256,7 +306,7 @@ background-color: #000;
 }
 
 .guest-review{
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
 }
 .view p{
@@ -402,7 +452,7 @@ background-color: #000;
   height: 35vh;
 }
 .room ,.guest-review {
-  font-size: 39px;
+  font-size: 35px;
 }
 #text {
    font-size: 31px;
@@ -439,6 +489,33 @@ font-size: 30px;
 }
 }
 
+@media only screen and  (max-width: 400px) {
+  .first {
+  font-size: 28px;
+}
+.second {
+   font-size: 18;
+}
+.third{
+   font-size: 13px;
+}
+.btn-outline-light {
+  font-size: 14px;
+}
+.intro h2 {
+  font-size: 24px;
+}
+.title{
+font-size: 27px;
+}
+ .guest-review {
+  font-size: 36px;
+}
+.intro p{
+  font-size: 14px;
+}
+}
+
 @media only screen and  (max-width: 375px) {
   .first {
     font-size: 26px;
@@ -463,7 +540,45 @@ font-size: 30px;
 .room, .guest-review {
   font-size: 37px;
 }
-#text {
-  font-size: 27px;
 }
+
+/*
+.testimonial-2 {
+  border-radius: 100px 0 100px 0;
+  padding: 50px 100px;
 }
+.shadow {
+  box-shadow: 0 .1rem .5rem rgba(0,0,0,.05)!important;
+}
+.main-title-area.text-center .title {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left-right-line{
+  position: relative;
+}
+.left-right-line:before{
+  background-color: #4caf50;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #6abe45;
+  position: absolute;
+  left: -30%;
+  bottom: 65%;
+}
+.left-right-line:after{
+  background-color: #4caf50;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #6abe45;
+  position: absolute;
+  right: -30%;
+  bottom: 65%;
+}
+
+.tourist-review{
+  height: auto;
+}*/

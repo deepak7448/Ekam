@@ -33,32 +33,32 @@ body {
     color: #fff;
 }
 .breadcrumb {
-    padding: 0.75rem 1rem;
-    background-color:transparent;
+  padding: 0.8rem 0.2rem;
+  background-color:transparent;
 }
 .breadcrumb li{
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: .39px;
-    text-transform: uppercase;
-    position: relative;
-    text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: .39px;
+  text-transform: uppercase;
+  position: relative;
+  text-decoration: none;
 }
 .breadcrumb li a{
-    text-decoration: none;
-    color: #fff;
-    -webkit-transition: all 300ms linear 0s;
-    -o-transition: all 300ms linear 0s;
-    transition: all 300ms linear 0s;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
 }
 .breadcrumb-item+.breadcrumb-item::before {
-    color:#6abe45;
+  color:#6abe45;
 }
 .breadcrumb-item.active {
-    color:#6abe45;
+  color:#6abe45;
 }
 .breadcrumb li a:hover{
-    color: #6abe45;
+  color: #6abe45;
 }
 .contact-us{
   background-color: #000;
