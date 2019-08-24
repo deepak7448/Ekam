@@ -196,7 +196,10 @@ color: #4caf50!important;
 .down-line-left span {
 color: #818181;
 }
-
+.modal-dialog {
+  max-width: 80%;
+  margin: 2rem auto;
+}
 
 .offer{
   background: linear-gradient(to right, rgba(21,25,29,0.81) 46%, rgba(0, 0, 0, 0.5) 100%),url("img/home.jpg") no-repeat ;
