@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
 body {
   margin: 0%;
   padding: 0%;
@@ -36,19 +37,18 @@ body {
 .btn:focus{
   box-shadow:none;
 }
-.btn-outline-light{
+.btn-success{
   transition: all 0.3s ease-in-out;
-  font-weight: 700;
-  font-size: 18px;
-  color: #6abe45;
-  border-width: medium;
+  padding: 8px;
+  font-size: 16px;
+  background-color: #6abe45;
   border-color: #6abe45;
 }
-.btn-outline-light:hover{
-  background-color:#6abe45;
+.btn-success:hover{
+  background-color:#000;
   /*transition:background-color 0.4s;*/
   color: beige;
-  border-color:#6abe45;
+  border-color: #000;
 }
 
 .btn-info{
@@ -56,7 +56,6 @@ background-color: transparent;
 color: #fff;
 border-color:#4caf50;
 border-radius: 2px; 
-border-width: medium;
 margin: 10px;
 transition: all 0.2s ease-in-out;
 }
@@ -98,20 +97,20 @@ background-color: currentColor;
 }
 
 .intro h2{
-  font-size: 37px;
+  font-size: 31px;
   font-weight: bold;
   letter-spacing: 0.9px;
   color: rgb(106, 190, 69);
   padding-bottom: 15px;
 }
 .intro h4{
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.9px;
   padding-bottom: 15px;
   color: #fff;
 }
 .intro p{
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   padding-bottom: 15px;
   line-height: 26px;
@@ -130,38 +129,14 @@ background-color: currentColor;
 }
 .room{
   color: #fff;
+  font-size: 38px;
+  font-family: 'Oleo Script', cursive;
 }
-/*.room-body{
-  box-shadow: 0px 23px 35px rgba(24,26,29,0.9);
-  background-color: #fff;
-  overflow: hidden;
-  backface-visibility: hidden;
-  margin-bottom: 25px;
+.room-sum{
+font-size: 16px;
+letter-spacing: 6px;
+color: #818181;
 }
-
-.room-body img{
-  transition: all 0.3s ease-in-out;
-  overflow: hidden;
-  backface-visibility: hidden;
-  
-}
-.room-body img:hover{
-  transform: scale(1.1);
-  overflow: hidden;
-  backface-visibility: hidden;
-}
-.body{
-  padding: 15px;
-  background-color: #212529;
-}
-.room-title{
-  color: #fff;
-  font-size: 25px;
-  text-transform: uppercase;
-  letter-spacing: .4px;
-  font-weight: bold;
-}*/
-
 img{
 width: 100%;
 }
@@ -173,7 +148,18 @@ overflow: hidden
 }
 
 .title{
-text-transform: uppercase;
+  color: #6abe45;
+  letter-spacing: .4px;
+  font-size: 38px;
+}
+.title span{
+  color:#fff;
+}
+.room-title a{
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .h5{
@@ -185,11 +171,7 @@ color: #4caf50;
 margin: 10px;
 font-size: 22px;
 }
-.title a{
-text-decoration: none;
-transition: all 0.2s ease-in-out;
-font-weight: 600;
-}
+
 /*a:hover{
 color: #4caf50!important;
 }*/
@@ -227,7 +209,7 @@ color: #818181;
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  margin: 15px;
+  margin: 0;
   padding-top: 18px;
   background-color:transparent;
   border:1px solid #fff;
@@ -260,14 +242,7 @@ background-color: #212529;
   font-size: 20px;
   font-weight: 500;
   color: #fff;
-  /*letter-spacing: .60px;
-  position: relative;
-  padding-left: 35px;
-  line-height: 53px;
-  display: block;
-  text-decoration: none;*/
-
-}
+ }
 .resot_list .list .fa-caret-right{
   margin: 5px;
   color: #6abe45;
@@ -285,15 +260,6 @@ background-color: #212529;
  margin: 28px;
 }
 
-.title{
-  color: #6abe45;
-  padding-bottom: 20px;
-  letter-spacing: .4px;
-  font-weight: bold;
-}
-.title span{
-  color:#fff;
-}
 .guest-img{
   width: 80px;
 }
@@ -311,6 +277,7 @@ background-color: #212529;
 .guest-review{
   font-size: 30px;
   color: #fff;
+  font-family: 'Oleo Script', cursive;
 }
 .view p{
   color: #808080;
@@ -332,7 +299,50 @@ background-color: #212529;
 .meta{
   color: gray;
 }
+/*room packages */
 
+.package-item ul{
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.package-item ul li{
+  text-decoration: none;
+  display: list-item;
+  padding: 12px 0;
+}
+.package-item ul li:first-child {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.package-item ul li:first-child em {
+  border-bottom: 2px solid black;
+  padding-bottom: 13px;
+}
+.package-item h3{
+  font-family: 'Oleo Script', cursive;
+}
+.container h2{
+font-family: 'Oleo Script', cursive;
+}
+.special{
+  padding: 70px 0;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: -30px;
+  background-color: #6abe45;
+}
+.special-offer h4{
+  color: #818181;
+  letter-spacing: 6px;
+  font-size: 17px;
+}
+
+/* total room */
+.counter{
+  color: #6abe45;
+}
 #scrollUp {
   bottom: 15px;
   right: 15px;
@@ -376,6 +386,9 @@ background-color: #212529;
   height: 55vh;
   max-width: 100%;
 }
+.resot_list .list {
+  font-size: 16px;
+}
 }
 
 @media only screen and (min-width: 418px) and (max-width: 991px) {
@@ -402,6 +415,13 @@ background-color: #212529;
 }
 .our-resort {
   margin: 0;
+}
+.special {
+  margin-right: auto;
+  padding: 48px 0;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: #6abe45;
 }
 }
 
@@ -455,7 +475,7 @@ background-color: #212529;
   height: 35vh;
 }
 .room ,.guest-review {
-  font-size: 35px;
+  font-size: 30px;
 }
 #text {
    font-size: 31px;
@@ -485,7 +505,7 @@ background-color: #212529;
   font-size: 14px;
 }
 .intro h2 {
-  font-size: 29px;
+  font-size: 27px;
 }
 .title{
 font-size: 30px;
@@ -544,44 +564,3 @@ font-size: 27px;
   font-size: 37px;
 }
 }
-
-/*
-.testimonial-2 {
-  border-radius: 100px 0 100px 0;
-  padding: 50px 100px;
-}
-.shadow {
-  box-shadow: 0 .1rem .5rem rgba(0,0,0,.05)!important;
-}
-.main-title-area.text-center .title {
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-.left-right-line{
-  position: relative;
-}
-.left-right-line:before{
-  background-color: #4caf50;
-  content: "";
-  width: 60px;
-  height: 2px;
-  background: #6abe45;
-  position: absolute;
-  left: -30%;
-  bottom: 65%;
-}
-.left-right-line:after{
-  background-color: #4caf50;
-  content: "";
-  width: 60px;
-  height: 2px;
-  background: #6abe45;
-  position: absolute;
-  right: -30%;
-  bottom: 65%;
-}
-
-.tourist-review{
-  height: auto;
-}*/
