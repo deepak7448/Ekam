@@ -438,6 +438,13 @@ font-family: 'Oleo Script', cursive;
   .third{
       font-size: 13px;
   }
+.special {
+  margin-right: auto;
+  padding: 48px 0;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: #6abe45;
+}
   }
 
 @media only screen and  (max-width: 460px) {
@@ -489,6 +496,13 @@ font-family: 'Oleo Script', cursive;
 .copyright{
   font-size: 14px;
 }
+.special {
+  margin-right: auto;
+  padding: 48px 0;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: #6abe45;
+}
 }
 
 @media only screen and  (max-width: 440px) {
@@ -509,6 +523,13 @@ font-family: 'Oleo Script', cursive;
 }
 .title{
 font-size: 30px;
+}
+.special {
+  margin-right: auto;
+  padding: 48px 0;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: #6abe45;
 }
 }
 
@@ -537,6 +558,13 @@ font-size: 27px;
 .intro p{
   font-size: 14px;
 }
+.special {
+  margin-right: auto;
+  padding: 48px 0;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: #6abe45;
+}
 }
 
 @media only screen and  (max-width: 375px) {
@@ -562,5 +590,12 @@ font-size: 27px;
 }
 .room, .guest-review {
   font-size: 37px;
+}
+.special {
+  margin-right: auto;
+  padding: 48px 0;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: #6abe45;
 }
 }
